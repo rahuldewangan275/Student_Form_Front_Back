@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 class="title">Student Form</h1>
+<form action="/register" method="post">
+<label for="firstname">First Name :</label><br>
+<input type="text" name="fname" /> <br>
+
+<label for="lastname">Last Name :</label><br>
+<input type="text" name="lname" /> <br>
+
+<label for="email">Email :</label><br>
+<input type="email" name="email"/> <br>
+
+<label for="dob">DOB :</label><br>
+<input type="date" name="dob"/> <br>
+
+<label for="password">Password :</label><br>
+<input type="password" name="passwd" /><br>
+
+<label for="gender">Gender :</label>
+<select name="gender" id="">
+    <option value=""></option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+</select>
+<br>
+<button type="submit">Submit</button>
+
+</form>
+</body>
+</html>
